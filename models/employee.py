@@ -1,0 +1,16 @@
+import uuid  # For unique employee IDs
+
+class Employee:
+    def __init__(self, name, position):
+        # Initialize employee with unique ID, name, and position
+        self.employee_id = str(uuid.uuid4())
+        self.name = name
+        self.position = position
+
+    def to_dict(self):
+        # Serialize employee object to dictionary
+        return {
+            "employee_id": self.employee_id,
+            "name": self.name,
+            "position": self.position
+        }
