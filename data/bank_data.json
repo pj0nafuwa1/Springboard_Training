@@ -1,0 +1,59 @@
+{
+    "customers": [
+        {
+            "customer_id": "1234-abcd",
+            "first_name": "Ada",
+            "last_name": "Obinna",
+            "address": "Lagos, Nigeria"
+        },
+        {
+            "customer_id": "5678-efgh",
+            "first_name": "John",
+            "last_name": "Doe",
+            "address": "Austin, TX"
+        },
+        {
+            "customer_id": "69600554-4175-40a8-9ef8-7a41abe54e2b",
+            "first_name": "PJ",
+            "last_name": "Onafuwa",
+            "address": "6006 Somewhere nice"
+        }
+    ],
+    "accounts": [
+        {
+            "account_id": "acct-001",
+            "customer_id": "1234-abcd",
+            "account_type": "savings",
+            "balance": 5000.0
+        },
+        {
+            "account_id": "acct-002",
+            "customer_id": "5678-efgh",
+            "account_type": "checking",
+            "balance": 1200.0
+        },
+        {
+            "account_id": "9ead45ba-e19a-4983-a8ab-d0fa990b1e0f",
+            "customer_id": "69600554-4175-40a8-9ef8-7a41abe54e2b",
+            "account_type": "exit",
+            "balance": 0.0
+        },
+        {
+            "account_id": "94dfa19c-74d6-421b-b980-ee102426a770",
+            "customer_id": "69600554-4175-40a8-9ef8-7a41abe54e2b",
+            "account_type": "exit",
+            "balance": 0.0
+        }
+    ],
+    "employees": [],
+    "loans": [
+        {
+            "loan_id": "ba4f4429-e677-4f5e-b2f7-c83d6832f587",
+            "customer_id": "69600554-4175-40a8-9ef8-7a41abe54e2b",
+            "principal": 392000.0,
+            "rate": 3.5,
+            "term": 30,
+            "total_payable": 41552000.0
+        }
+    ]
+}
