@@ -12,12 +12,11 @@ This is a simple command-line banking system implemented in Python. It allows yo
 - Graceful error handling
 
 ## How to Run
-1. Make sure you have Python 3 installed.
-2. Run the program:
+1. Run the program:
    ```
    python main.py
    ```
-3. Follow the on-screen menu to interact with the system.
+2. Follow the on-screen menu to interact with the system.
 
 ## Logging
 - All actions and errors are logged to `logs/banking.log`.
