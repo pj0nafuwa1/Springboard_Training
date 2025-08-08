@@ -1,0 +1,11 @@
+Mini Project: Ticket Sales Data Loader and Analyzer
+
+Plan:
+1. Setup database connection using SQLite (no server required).
+2. Create DDL for sales table: Define schema for ticket sales.
+3. Verify and load CSV file: List files in data/, prompt user to select, then load into the table.
+4. Display statistical info: Query for top-selling events in the past month.
+5. Display results in user-friendly format: Format output as a table.
+6. Push code to GitHub: Add a README with setup and usage instructions.
+
+After loading the data, provide recommendations to the user, such as popular events based on ticket sales for the past month.
