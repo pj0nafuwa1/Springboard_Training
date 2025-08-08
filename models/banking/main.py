@@ -48,10 +48,17 @@ def create_customer():
         data["customers"].append(customer.to_dict())
         save_data(data)
         logging.info("Customer created successfully!")
+<<<<<<< HEAD:models/banking/main.py
         print("Customer created successfully!")
     except Exception as e:
         logging.error(f"Error creating customer: {e}")
         print("Error creating customer.")
+=======
+        print(" Customer created successfully!")
+    except Exception as e:
+        logging.error(f"Error creating customer: {e}")
+        print(" Error creating customer.")
+>>>>>>> 561aa6902b39abdd738f7e33743e059675242c8c:main.py
 
 def create_account():
     """Create a new account linked to an existing customer."""
@@ -63,10 +70,17 @@ def create_account():
         data["accounts"].append(account.to_dict())
         save_data(data)
         logging.info("Account created!")
+<<<<<<< HEAD:models/banking/main.py
         print("Account created!")
     except Exception as e:
         logging.error(f"Error creating account: {e}")
         print("Error creating account.")
+=======
+        print(" Account created!")
+    except Exception as e:
+        logging.error(f"Error creating account: {e}")
+        print(" Error creating account.")
+>>>>>>> 561aa6902b39abdd738f7e33743e059675242c8c:main.py
 
 def view_customer_accounts():
     """Display all accounts for a given customer ID."""
@@ -101,10 +115,17 @@ def create_loan():
         data["loans"].append(loan.to_dict())
         save_data(data)
         logging.info("Loan created!")
+<<<<<<< HEAD:models/banking/main.py
         print(f"Loan created! Total to repay: ${loan.calculate_total_payable():,.2f}")
     except Exception as e:
         logging.error(f"Error creating loan: {e}")
         print("Error creating loan.")
+=======
+        print(f" Loan created! Total to repay: ${loan.calculate_total_payable():,.2f}")
+    except Exception as e:
+        logging.error(f"Error creating loan: {e}")
+        print(" Error creating loan.")
+>>>>>>> 561aa6902b39abdd738f7e33743e059675242c8c:main.py
 
 def view_customers():
     """Display all existing customers with their names and IDs."""
@@ -114,7 +135,11 @@ def view_customers():
             print(f'{cust["first_name"]} {cust["last_name"]} - ID: {cust["customer_id"]}')
     except Exception as e:
         logging.error(f"Error viewing customers: {e}")
+<<<<<<< HEAD:models/banking/main.py
         print("Error viewing customers.")
+=======
+        print(" Error viewing customers.")
+>>>>>>> 561aa6902b39abdd738f7e33743e059675242c8c:main.py
 
 def view_loans():
     """Display all loans in the system."""
@@ -124,7 +149,11 @@ def view_loans():
             print(f"Loan ID: {loan['loan_id']} | Customer: {loan['customer_id']} | Repay: ${loan['total_payable']:,.2f}")
     except Exception as e:
         logging.error(f"Error viewing loans: {e}")
+<<<<<<< HEAD:models/banking/main.py
         print("Error viewing loans.")
+=======
+        print(" Error viewing loans.")
+>>>>>>> 561aa6902b39abdd738f7e33743e059675242c8c:main.py
 
 def main():
     """Main CLI menu loop for the banking system."""
@@ -154,7 +183,11 @@ def main():
             print("Thank you for you business. Goodbye!")
             break
         else:
+<<<<<<< HEAD:models/banking/main.py
             print("Invalid choice.")
+=======
+            print(" Invalid choice.")
+>>>>>>> 561aa6902b39abdd738f7e33743e059675242c8c:main.py
 
 if __name__ == "__main__":
     # This block ensures main() only runs when this script is executed directly
