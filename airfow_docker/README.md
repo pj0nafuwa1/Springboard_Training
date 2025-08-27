@@ -14,7 +14,7 @@ This project uses Apache Airflow to automatically download, process, and analyze
 ### Installation
 1. Clone this repository:
    ```
-   git clone https://github.com/pj0nafuwa1/Springboard_Training/tree/dev
+   git clone https://github.com/pj0nafuwa1/Springboard_Training/tree/dev/airfow_docker
    ```
 2. Ensure Docker Desktop is running.
 3. In the `airfow_docker` directory, make sure the following files exist:
