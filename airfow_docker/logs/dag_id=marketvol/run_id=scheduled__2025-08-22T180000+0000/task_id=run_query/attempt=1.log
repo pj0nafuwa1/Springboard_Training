@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-27T09:22:59.000330","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-27T09:22:59.001195","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/marketvol_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-27T09:23:00.160272Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.162467Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.165282Z","level":"info","event":"Current task name:run_query","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.167999Z","level":"info","event":"Dag name:marketvol","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.183626Z","level":"info","event":"AAPL rows: 390","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.185150Z","level":"info","event":"TSLA rows: 390","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.186527","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-27T09:23:00.211970Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.213657Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:23:00.214842Z","level":"info","event":"Task operator:<Task(PythonOperator): run_query>","chan":"stdout","logger":"task"}

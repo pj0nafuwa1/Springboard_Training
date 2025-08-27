@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-27T09:17:59.915075","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-27T09:17:59.916291","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/marketvol_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-27T09:18:04.720825Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:18:04.735809Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:18:04.742725Z","level":"info","event":"Current task name:download_aapl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:18:04.748834Z","level":"info","event":"Dag name:marketvol","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:18:04.797542","level":"warning","event":"/opt/airflow/dags/marketvol_dag.py:39: FutureWarning: YF.download() has changed argument auto_adjust default to True\n  df = yf.download(symbol, start=start_date, end=end_date, interval='1m')\n","logger":"py.warnings"}
+{"timestamp":"2025-08-27T09:18:09.433821Z","level":"error","event":"\r[*********************100%***********************]  1 of 1 completed","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-27T09:18:09.490974","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-27T09:18:09.620128Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:18:09.625961Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:18:09.639362Z","level":"info","event":"Task operator:<Task(PythonOperator): download_aapl>","chan":"stdout","logger":"task"}

@@ -1,0 +1,14 @@
+{"timestamp":"2025-08-27T09:22:56.606060","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-27T09:22:56.606820","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/marketvol_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-27T09:22:57.468859Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:22:57.470555Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:22:57.471245Z","level":"info","event":"Current task name:move_aapl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:22:57.471793Z","level":"info","event":"Dag name:marketvol","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:22:57.469922","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T09:22:57.471041","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'mkdir -p /tmp/market_data/2025-08-22 && mv /tmp/data/2025-08-22/AAPL.csv /tmp/market_data/2025-08-22/']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T09:22:57.485180","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T09:22:57.490942","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T09:22:57.491669","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0198dc83-cdcb-71d5-8f36-fb220a5c3ee7'), task_id='move_aapl', dag_id='marketvol', run_id='scheduled__2025-08-22T18:00:00+00:00', try_number=1, map_index=-1, hostname='372af6768e36', context_carrier={}, task=<Task(BashOperator): move_aapl>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2025, 8, 27, 9, 22, 55, 810681, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/marketvol/runs/scheduled__2025-08-22T18%3A00%3A00%2B00%3A00/tasks/move_aapl?try_number=1')","logger":"task"}
+{"timestamp":"2025-08-27T09:22:57.529683Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:22:57.530506Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T09:22:57.531250Z","level":"info","event":"Task operator:<Task(BashOperator): move_aapl>","chan":"stdout","logger":"task"}
